@@ -1,0 +1,4 @@
+User-agent: *
+
+Host: starfit.com.ua
+Sitemap: http://starfit.com.ua/sitemap.xml

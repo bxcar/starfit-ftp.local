@@ -1,0 +1,9 @@
+<wpml-config>
+  <admin-texts>
+    <key name="theme_mods_fitclub-pro">
+      <key name="fitclub_logo"/>
+      <key name="fitclub_footer_editor"/>
+      <key name="fitclub_read_more_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>
