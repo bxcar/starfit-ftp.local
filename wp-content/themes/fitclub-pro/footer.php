@@ -58,7 +58,11 @@
     }
 </script>
 <?php
-if (!isset($_COOKIE['city_chosen'])) {
+if(isset($_GET["pshow"])) { ?>
+    <script>
+        setCookie("city_chosen", "brovary", 1);
+    </script>
+<?php } elseif (!isset($_COOKIE['city_chosen'])) {
     if (isset($_COOKIE['redirect_disable'])) {
         setcookie('redirect_disable', '', time()-3600);
     } ?>
@@ -92,7 +96,7 @@ if (!isset($_COOKIE['city_chosen'])) {
     jQuery('.city-choose-popup-button.redirect').click(function (e) {
         e.preventDefault();
         setCookie("city_chosen", "borispol", 1);
-        window.location.href = "http://starfit.com.ua/";
+        window.location.href = "http://starfit.com.ua/?pshow=0";
     });
 
     jQuery('#city_choose').on('change', function () {

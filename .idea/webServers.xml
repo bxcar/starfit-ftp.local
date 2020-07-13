@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b195c208-afcb-41cb-bde0-d53b824e8d58" name="starfit" url="http://hosting2.cityhost.com.ua">
+        <fileTransfer host="hosting2.cityhost.com.ua" port="21" rootFolder="/www/brovary.starfit.com.ua">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
